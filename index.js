@@ -28,6 +28,8 @@ app.get('/', (req, res) => {
        res.status(404).json({ message: 'Usuario no encontrado' });
      }
    });
+
+   
    // Eliminar un usuario
    app.delete('/api/usuarios/:id', (req, res) => {
      const { id } = req.params;

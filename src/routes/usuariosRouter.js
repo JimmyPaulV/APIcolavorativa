@@ -27,4 +27,6 @@ router.delete('/:id', (req, res) => {
     res.json({ message: 'Usuario eliminado' });
   });
 });
+
+
 module.exports = router
